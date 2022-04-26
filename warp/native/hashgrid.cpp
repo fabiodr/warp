@@ -222,6 +222,8 @@ void hash_grid_reserve_device(uint64_t id, int num_points)
     }
 }
 
+// spatial hashing
+
 void hash_grid_update_device(uint64_t id, float cell_width, const wp::vec3* points, int num_points)
 {
     
